@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5376391147C9080009D2401 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5376390147C9080009D2401 /* UIKit.framework */; };
+		A5376393147C9080009D2401 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5376392147C9080009D2401 /* Foundation.framework */; };
+		A5376395147C9080009D2401 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5376394147C9080009D2401 /* CoreGraphics.framework */; };
+		A537639B147C9080009D2401 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A5376399147C9080009D2401 /* InfoPlist.strings */; };
+		A537639D147C9080009D2401 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A537639C147C9080009D2401 /* main.m */; };
+		A53763A1147C9080009D2401 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A53763A0147C9080009D2401 /* AppDelegate.m */; };
+		A53763A4147C9080009D2401 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A53763A2147C9080009D2401 /* MainStoryboard_iPhone.storyboard */; };
+		A53763A7147C9080009D2401 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A53763A5147C9080009D2401 /* MainStoryboard_iPad.storyboard */; };
+		A53763AA147C9080009D2401 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A53763A9147C9080009D2401 /* FirstViewController.m */; };
+		A53763AC147C9080009D2401 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = A53763AB147C9080009D2401 /* first.png */; };
+		A53763AE147C9080009D2401 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A53763AD147C9080009D2401 /* first@2x.png */; };
+		A53763B1147C9080009D2401 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A53763B0147C9080009D2401 /* SecondViewController.m */; };
+		A53763B3147C9080009D2401 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = A53763B2147C9080009D2401 /* second.png */; };
+		A53763B5147C9080009D2401 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A53763B4147C9080009D2401 /* second@2x.png */; };
+		A53763BD147C9080009D2401 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A53763BC147C9080009D2401 /* SenTestingKit.framework */; };
+		A53763BE147C9080009D2401 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5376390147C9080009D2401 /* UIKit.framework */; };
+		A53763BF147C9080009D2401 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5376392147C9080009D2401 /* Foundation.framework */; };
+		A53763C7147C9080009D2401 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A53763C5147C9080009D2401 /* InfoPlist.strings */; };
+		A53763CA147C9080009D2401 /* picturmeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A53763C9147C9080009D2401 /* picturmeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A53763C0147C9080009D2401 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5376383147C9080009D2401 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A537638B147C9080009D2401;
+			remoteInfo = picturme;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A537638C147C9080009D2401 /* picturme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = picturme.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5376390147C9080009D2401 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A5376392147C9080009D2401 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A5376394147C9080009D2401 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A5376398147C9080009D2401 /* picturme-Info.plist */ = {isa = PBXFileReference; path = "picturme-Info.plist"; sourceTree = "<group>"; };
+		A537639A147C9080009D2401 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A537639C147C9080009D2401 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A537639E147C9080009D2401 /* picturme-Prefix.pch */ = {isa = PBXFileReference; path = "picturme-Prefix.pch"; sourceTree = "<group>"; };
+		A537639F147C9080009D2401 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		A53763A0147C9080009D2401 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A53763A3147C9080009D2401 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		A53763A6147C9080009D2401 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		A53763A8147C9080009D2401 /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
+		A53763A9147C9080009D2401 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		A53763AB147C9080009D2401 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		A53763AD147C9080009D2401 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		A53763AF147C9080009D2401 /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
+		A53763B0147C9080009D2401 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		A53763B2147C9080009D2401 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		A53763B4147C9080009D2401 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		A53763BB147C9080009D2401 /* picturmeTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = picturmeTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A53763BC147C9080009D2401 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		A53763C4147C9080009D2401 /* picturmeTests-Info.plist */ = {isa = PBXFileReference; path = "picturmeTests-Info.plist"; sourceTree = "<group>"; };
+		A53763C6147C9080009D2401 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A53763C8147C9080009D2401 /* picturmeTests.h */ = {isa = PBXFileReference; path = picturmeTests.h; sourceTree = "<group>"; };
+		A53763C9147C9080009D2401 /* picturmeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = picturmeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5376389147C9080009D2401 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5376391147C9080009D2401 /* UIKit.framework in Frameworks */,
+				A5376393147C9080009D2401 /* Foundation.framework in Frameworks */,
+				A5376395147C9080009D2401 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A53763B7147C9080009D2401 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A53763BD147C9080009D2401 /* SenTestingKit.framework in Frameworks */,
+				A53763BE147C9080009D2401 /* UIKit.framework in Frameworks */,
+				A53763BF147C9080009D2401 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5376381147C9080009D2401 = {
+			isa = PBXGroup;
+			children = (
+				A5376396147C9080009D2401 /* picturme */,
+				A53763C2147C9080009D2401 /* picturmeTests */,
+				A537638F147C9080009D2401 /* Frameworks */,
+				A537638D147C9080009D2401 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A537638D147C9080009D2401 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A537638C147C9080009D2401 /* picturme.app */,
+				A53763BB147C9080009D2401 /* picturmeTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A537638F147C9080009D2401 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5376390147C9080009D2401 /* UIKit.framework */,
+				A5376392147C9080009D2401 /* Foundation.framework */,
+				A5376394147C9080009D2401 /* CoreGraphics.framework */,
+				A53763BC147C9080009D2401 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A5376396147C9080009D2401 /* picturme */ = {
+			isa = PBXGroup;
+			children = (
+				A537639F147C9080009D2401 /* AppDelegate.h */,
+				A53763A0147C9080009D2401 /* AppDelegate.m */,
+				A53763A2147C9080009D2401 /* MainStoryboard_iPhone.storyboard */,
+				A53763A5147C9080009D2401 /* MainStoryboard_iPad.storyboard */,
+				A53763A8147C9080009D2401 /* FirstViewController.h */,
+				A53763A9147C9080009D2401 /* FirstViewController.m */,
+				A53763AB147C9080009D2401 /* first.png */,
+				A53763AD147C9080009D2401 /* first@2x.png */,
+				A53763AF147C9080009D2401 /* SecondViewController.h */,
+				A53763B0147C9080009D2401 /* SecondViewController.m */,
+				A53763B2147C9080009D2401 /* second.png */,
+				A53763B4147C9080009D2401 /* second@2x.png */,
+				A5376397147C9080009D2401 /* Supporting Files */,
+			);
+			path = picturme;
+			sourceTree = "<group>";
+		};
+		A5376397147C9080009D2401 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5376398147C9080009D2401 /* picturme-Info.plist */,
+				A5376399147C9080009D2401 /* InfoPlist.strings */,
+				A537639C147C9080009D2401 /* main.m */,
+				A537639E147C9080009D2401 /* picturme-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A53763C2147C9080009D2401 /* picturmeTests */ = {
+			isa = PBXGroup;
+			children = (
+				A53763C8147C9080009D2401 /* picturmeTests.h */,
+				A53763C9147C9080009D2401 /* picturmeTests.m */,
+				A53763C3147C9080009D2401 /* Supporting Files */,
+			);
+			path = picturmeTests;
+			sourceTree = "<group>";
+		};
+		A53763C3147C9080009D2401 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A53763C4147C9080009D2401 /* picturmeTests-Info.plist */,
+				A53763C5147C9080009D2401 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A537638B147C9080009D2401 /* picturme */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A53763CD147C9080009D2401 /* Build configuration list for PBXNativeTarget "picturme" */;
+			buildPhases = (
+				A5376388147C9080009D2401 /* Sources */,
+				A5376389147C9080009D2401 /* Frameworks */,
+				A537638A147C9080009D2401 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = picturme;
+			productName = picturme;
+			productReference = A537638C147C9080009D2401 /* picturme.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A53763BA147C9080009D2401 /* picturmeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A53763D0147C9080009D2401 /* Build configuration list for PBXNativeTarget "picturmeTests" */;
+			buildPhases = (
+				A53763B6147C9080009D2401 /* Sources */,
+				A53763B7147C9080009D2401 /* Frameworks */,
+				A53763B8147C9080009D2401 /* Resources */,
+				A53763B9147C9080009D2401 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A53763C1147C9080009D2401 /* PBXTargetDependency */,
+			);
+			name = picturmeTests;
+			productName = picturmeTests;
+			productReference = A53763BB147C9080009D2401 /* picturmeTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5376383147C9080009D2401 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Isobar;
+			};
+			buildConfigurationList = A5376386147C9080009D2401 /* Build configuration list for PBXProject "picturme" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A5376381147C9080009D2401;
+			productRefGroup = A537638D147C9080009D2401 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A537638B147C9080009D2401 /* picturme */,
+				A53763BA147C9080009D2401 /* picturmeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A537638A147C9080009D2401 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A537639B147C9080009D2401 /* InfoPlist.strings in Resources */,
+				A53763A4147C9080009D2401 /* MainStoryboard_iPhone.storyboard in Resources */,
+				A53763A7147C9080009D2401 /* MainStoryboard_iPad.storyboard in Resources */,
+				A53763AC147C9080009D2401 /* first.png in Resources */,
+				A53763AE147C9080009D2401 /* first@2x.png in Resources */,
+				A53763B3147C9080009D2401 /* second.png in Resources */,
+				A53763B5147C9080009D2401 /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A53763B8147C9080009D2401 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A53763C7147C9080009D2401 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A53763B9147C9080009D2401 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5376388147C9080009D2401 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A537639D147C9080009D2401 /* main.m in Sources */,
+				A53763A1147C9080009D2401 /* AppDelegate.m in Sources */,
+				A53763AA147C9080009D2401 /* FirstViewController.m in Sources */,
+				A53763B1147C9080009D2401 /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A53763B6147C9080009D2401 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A53763CA147C9080009D2401 /* picturmeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A53763C1147C9080009D2401 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A537638B147C9080009D2401 /* picturme */;
+			targetProxy = A53763C0147C9080009D2401 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A5376399147C9080009D2401 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A537639A147C9080009D2401 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A53763A2147C9080009D2401 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A53763A3147C9080009D2401 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		A53763A5147C9080009D2401 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A53763A6147C9080009D2401 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		A53763C5147C9080009D2401 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A53763C6147C9080009D2401 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A53763CB147C9080009D2401 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A53763CC147C9080009D2401 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A53763CE147C9080009D2401 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "picturme/picturme-Prefix.pch";
+				INFOPLIST_FILE = "picturme/picturme-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A53763CF147C9080009D2401 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "picturme/picturme-Prefix.pch";
+				INFOPLIST_FILE = "picturme/picturme-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A53763D1147C9080009D2401 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/picturme.app/picturme";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "picturme/picturme-Prefix.pch";
+				INFOPLIST_FILE = "picturmeTests/picturmeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		A53763D2147C9080009D2401 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/picturme.app/picturme";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "picturme/picturme-Prefix.pch";
+				INFOPLIST_FILE = "picturmeTests/picturmeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5376386147C9080009D2401 /* Build configuration list for PBXProject "picturme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A53763CB147C9080009D2401 /* Debug */,
+				A53763CC147C9080009D2401 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A53763CD147C9080009D2401 /* Build configuration list for PBXNativeTarget "picturme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A53763CE147C9080009D2401 /* Debug */,
+				A53763CF147C9080009D2401 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A53763D0147C9080009D2401 /* Build configuration list for PBXNativeTarget "picturmeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A53763D1147C9080009D2401 /* Debug */,
+				A53763D2147C9080009D2401 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5376383147C9080009D2401 /* Project object */;
+}
